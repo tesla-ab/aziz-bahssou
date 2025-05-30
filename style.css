@@ -207,45 +207,60 @@ section {
 
 
 /* Responsive Media Queries */
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        background-size: 300px;
+        background-position: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .main h2 span {
+        font-size: 2em;
+    }
+
+    .main h3 {
+        font-size: 1.5em;
+    }
+
+    .main-btn {
+        font-size: 1em;
+        padding: 0.8em 1.8em;
+    }
+
+    .cardss {
+        width: 90%;
+    }
+
+    .card {
+        width: 95%;
+    }
+
     header {
-        padding: 12px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 30px;
+    }
+
+    .navigation {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .navigation a {
-        padding-left: 10px;
-    }
-
-    .titel {
-        font-size: 1.8em;
+        padding: 10px 15px;
     }
 
     section {
-        padding: 80px 20px;
+        padding: 50px 20px;
     }
 
-    .main-content h2 {
-        font-size: 1.6em;
-    }
-
-    .content {
+    .footer {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 }
 
-@media (max-width: 641px) {
-    body {
-        font-size: 12px;
-    }
-
-    .main-content h3 {
-        font-size: 1.4em;
-    }
-}
-
-@media (max-width: 300px) {
-    body {
-        font-size: 10px;
-    }
-}
