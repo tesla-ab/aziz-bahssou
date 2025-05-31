@@ -52,7 +52,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: <img src="image-fotor-20250129181716-removebg-preview.png"> ;
+    background:  url(image-fotor-20250129181716.jpg) no-repeat ;
     background-size: 550px;
     background-position:right;
     background-attachment: fixed;
