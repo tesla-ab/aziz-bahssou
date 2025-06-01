@@ -52,7 +52,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:  url(azizwebsotelogo) no-repeat ;
+    background:  url(azizwebsotelogo.png) no-repeat ;
     background-size: 550px;
     background-position:right;
     background-attachment: fixed;
