@@ -10,6 +10,10 @@
 
 body {
     background:  linear-gradient(to right, #000000, #ffffff);
+    
+}
+section {
+  padding: 100px 200px;
 }
 
 header {
@@ -53,7 +57,7 @@ section {
     display: flex;
     align-items: center;
     background:  url(imagimagwebsie.png) no-repeat ;
-    background-size: 550px;
+    background-size: 350px;
     background-position:right;
     background-attachment: fixed;
 }
