@@ -303,3 +303,43 @@ section {
     }
 }
 
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+  }
+
+  .navigations {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fc67e5c0;
+    padding: 20px 10px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+     box-shadow: 2px 2px 20px 1px rgba(0,0, 0, 20%);
+    border-radius: 5px;
+    width: 70%;
+    max-height: 400px;
+    z-index: 1000;
+    text-align: center;
+  }
+
+  .navigations.active {
+    display: flex;
+  }
+
+  .navigations.active a {
+    color: #fff;
+    font-size: 1.2em;
+  }
+
+  .navigations.active a:hover {
+    color: #b23e8f;
+  }
+
+  header {
+    padding: 10px 20px;
+  }
+}
+
